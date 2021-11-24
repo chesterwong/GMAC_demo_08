@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'TxMedium';
+    font-style: normal;
+    font-weight: normal;
+    src: url('FontName.woff'),
+    url('FontName.woff2');
+}
+
+@font-face {
+    font-family: 'tx-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url('tx-Medium.ttf'),
+    url('tx-Medium.ttf')
+}
