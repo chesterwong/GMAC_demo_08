@@ -25,7 +25,7 @@
                             <div class="stl_sub_area">
                                 <ul>
                                     <li class="stl_sub_title">
-                                        <icon class="stl_icon_bg_blue"><span class="iconfont stl_icon">&#xe63b;</span></icon>
+                                        <div class="stl_icon_bg_blue"><span class="iconfont stl_icon">&#xe63b;</span></div>
                                         <span class="stl_icon_title">合同数</span>
                                     </li>
                                 </ul>
@@ -93,7 +93,7 @@
                             <div class="stl_sub_area">
                                 <ul>
                                     <li class="stl_sub_title">
-                                        <icon class="stl_icon_bg_yellow"><span class="iconfont stl_icon">&#xe641;</span></icon>
+                                        <div class="stl_icon_bg_yellow"><span class="iconfont stl_icon">&#xe641;</span></div>
                                         <span class="stl_icon_title">申请数</span>
                                     </li>
                                 </ul>
@@ -164,7 +164,7 @@
                             <div class="stl_sub_area">
                                 <ul>
                                     <li class="stl_sub_title">
-                                        <icon class="stl_icon_bg_blue"><span class="iconfont stl_icon">&#xe650;</span></icon>
+                                        <div class="stl_icon_bg_blue"><span class="iconfont stl_icon">&#xe650;</span></div>
                                         <span class="stl_icon_title">合同/申请30日走势图</span>
                                     </li>
                                 </ul>
@@ -212,7 +212,7 @@
                             <div class="stl_sub_area">
                                 <ul>
                                     <li class="stl_sub_title">
-                                        <icon class="stl_icon_bg_blue"><span class="iconfont stl_icon">&#xe63b;</span></icon>
+                                        <div class="stl_icon_bg_blue"><span class="iconfont stl_icon">&#xe63b;</span></div>
                                         <span class="stl_icon_title">衍射合同量</span>
                                     </li>
                                 </ul>
@@ -324,18 +324,200 @@
                             </div>
                         </li>
                     </ul>
+                    <ul>
+                        <li class="stl_area_rr" style="padding-top:15px;">
+                            <ChartPie :msgid='"d2"' :msgobj='{"content":"月占比","percentage":30}'/>
+                        </li>
+                        <li class="stl_area_rr" style="padding-top:15px;">
+                            <ChartPie :msgid='"d3"' :msgobj='{"content":"季占比","percentage":56}'/>
+                        </li>
+                        <li class="stl_area_rr" style="padding-top:15px;">
+                            <ChartPie :msgid='"d4"' :msgobj='{"content":"年占比","percentage":80}'/>
+                        </li>
+                    </ul>
                     <el-divider></el-divider>
                     <ul>
                         <li class="stl_area_cr">
                             <div class="stl_sub_area">
                                 <ul>
                                     <li class="stl_sub_title">
-                                        <icon class="stl_icon_bg_blue"><span class="iconfont stl_icon">&#xe650;</span></icon>
+                                        <div class="stl_icon_bg_blue"><span class="iconfont stl_icon">&#xe650;</span></div>
                                         <span class="stl_icon_title">30日趋势图</span>
                                     </li>
                                 </ul>
                             </div>
                             <ChartBar :msgid='"l2"'/>
+                        </li>
+                    </ul>
+                </div>
+            </el-col>
+        </el-row>
+
+        <el-row class="modelarea">
+            <el-col :span="12" class="stl_title">
+                其他零售业务
+            </el-col>
+        </el-row>
+
+        <el-row class="modelarea medelarealast">
+            <el-col class="stl_area" :span="24">
+                <div class="stl_area">
+                    <ul>
+                        <li class="stl_area_lr">
+                            <div class="stl_sub_area">
+                                <ul>
+                                    <li class="stl_sub_title">
+                                        <div class="stl_icon_bg_blue"><span class="iconfont stl_icon">&#xe644;</span></div>
+                                        <span class="stl_icon_title">转化率</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="stl_sub_content">
+                                        <span class="stl_sub_title2">月转化率（M+0）</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="stl_sub_content">
+                                        <span class="ocn d_3">91.9%</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="stl_sub_content">
+                                        <span class="d_5">同比：</span>
+                                    </li>
+                                    <li class="stl_sub_content1">
+                                        <span class="d_4 green">-</span>
+                                    </li>
+                                    <li class="stl_sub_content">
+                                        <span class="d_5">环比：</span>
+                                    </li>
+                                    <li class="stl_sub_content1">
+                                        <span class="d_4 green">19%</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="stl_sub_content">
+                                        <span class="stl_sub_title2">年转化率（M-1）</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="stl_sub_content">
+                                        <span class="ocn d_3">96.5%</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="stl_sub_content">
+                                        <span class="d_5">同比：</span>
+                                    </li>
+                                    <li class="stl_sub_content1">
+                                        <span class="d_4 green">0%</span>
+                                    </li>
+                                    <li class="stl_sub_content">
+                                        <span class="d_5">环比：</span>
+                                    </li>
+                                    <li class="stl_sub_content1">
+                                        <span class="d_4 green">-</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="stl_area_ll">
+                            <div class="stl_sub_area">
+                                <ul>
+                                    <li class="stl_sub_title">
+                                        <span class="stl_icon_title"></span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="stl_sub_content">
+                                        <span class="stl_sub_title2">年转化率（M+0）</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="stl_sub_content">
+                                        <span class="ocn d_3">91.9%</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="stl_sub_content">
+                                        <span class="d_5">同比：</span>
+                                    </li>
+                                    <li class="stl_sub_content1">
+                                        <span class="d_4 green">-</span>
+                                    </li>
+                                    <li class="stl_sub_content">
+                                        <span class="d_5">环比：</span>
+                                    </li>
+                                    <li class="stl_sub_content1">
+                                        <span class="d_4 green">19%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul style="padding-top:20px;">
+                        <li class="stl_area_lr">
+                            <div class="stl_sub_area">
+                                <ul>
+                                    <li class="stl_sub_title">
+                                        <div class="stl_icon_bg_red"><span class="iconfont stl_icon">&#xe668;</span></div>
+                                        <span class="stl_icon_title">逾期率</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="stl_sub_content">
+                                        <span class="stl_sub_title2">30+逾期率</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="stl_sub_content">
+                                        <span class="ocn d_3">0%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="stl_area_ll">
+                            <div class="stl_sub_area">
+                                <ul>
+                                    <li class="stl_sub_title">
+                                        <span class="stl_icon_title"></span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="stl_sub_content">
+                                        <span class="stl_sub_title2">30+逾期个数</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="stl_sub_content">
+                                        <span class="ocn d_3">91</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul style="padding-top:20px;">
+                        <li class="stl_area_lr">
+                            <div class="stl_sub_area">
+                                <ul>
+                                    <li class="stl_sub_title">
+                                        <div class="stl_icon_bg_yellow"><span class="iconfont stl_icon">&#xe668;</span></div>
+                                        <span class="stl_icon_title">其他指标</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="stl_sub_content">
+                                        <span class="stl_sub_title2">待转化申请数</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="stl_sub_content">
+                                        <span class="ocn d_3">42</span> <span class="iconfont stl_icon1">&#xe668;</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="stl_area_ll">
                         </li>
                     </ul>
                 </div>
@@ -348,6 +530,7 @@
 import { defineComponent } from "vue"
 import { useRouter } from 'vue-router'
 import ChartBar from '../../../src/components/ChartBar.vue'
+import ChartPie from '../../../src/components/ChartPie.vue'
 import ChartDoublePie from '../../../src/components/ChartDoublePie.vue'
 
 export default defineComponent( {
@@ -364,7 +547,8 @@ export default defineComponent( {
     },
     components:{
         ChartBar,
-        ChartDoublePie
+        ChartPie,
+        ChartDoublePie,
     }
 })
 </script>
@@ -376,6 +560,9 @@ export default defineComponent( {
 }
 .modelarea{
     padding:8px 8px 0 8px;
+}
+.medelarealast{
+    padding-bottom:8px;
 }
 .goback{
     padding: 1rem;
@@ -390,6 +577,7 @@ export default defineComponent( {
     font-family:'TxMedium';
     text-align: left;
     font-size: 14px;
+    line-height: 1.7em;
 }
 .stl_xl{
     text-align: right;
@@ -408,6 +596,9 @@ export default defineComponent( {
 }
 .stl_area_cr{
     width:100%;float:left;
+}
+.stl_area_rr{
+    width:33%;float:left;
 }
 
 .stl_sub_area ul {
@@ -452,16 +643,27 @@ export default defineComponent( {
     background-color: #425CFB;
     padding: 5px 4px 5px 4px;
     border-radius: 15px;
+    display: initial;
 }
 .stl_icon_bg_yellow{
     background-color: #FCCA0F;
     padding: 5px 4px 5px 4px;
     border-radius: 15px;
+    display: initial;
+}
+.stl_icon_bg_red{
+    background-color: #fc460f;
+    padding: 5px 4px 5px 4px;
+    border-radius: 15px;
+    display: initial;
 }
 .stl_icon{
     font-size: 16px;
     color: #ffffff;
-    
+}
+.stl_icon1{
+    font-size: 16px;
+    color: #777777;
 }
 .stl_icon_title{
     padding-left: 10px;

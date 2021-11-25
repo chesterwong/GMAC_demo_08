@@ -83,22 +83,17 @@
 
 <script>
 import { ref } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
+import { useRouter } from 'vue-router'
 
 
 export default {
   name: 'distributor',
   setup () {
-    const route = useRoute();
     const router = useRouter();
     
     const dialogVisible = ref(false);
     const dialogVisible1 = ref(false);
     const count = ref(0);
-
-    
-    console.log(route)
-    console.log(router)
 
     const load = () => {
       count.value += 2
@@ -107,10 +102,7 @@ export default {
     const handleClose = () => {
       
     }
-    const storelink = (obj, Number) =>  {
-      console.log(obj);
-      console.log(Number);
-      console.log(router);
+    const storelink = () =>  {
       router.push({
           name:'storelink'
       });

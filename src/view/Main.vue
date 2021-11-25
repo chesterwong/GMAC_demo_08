@@ -38,11 +38,9 @@
       </el-col>
     </el-row>
 
-    <el-row class="bottom_Menu">
-      <el-col>
-        <BottomMenu/>
-      </el-col>
-    </el-row>
+    <div class="bottom_Menu">
+        <BottomMenu :seletedname='"distributor"'/>
+    </div>
   </div>
 </template>
 

@@ -5,6 +5,7 @@ import 'element-plus/dist/index.css'
 import './assets/css/main.css'
 import App from './App.vue'
 import * as echarts from 'echarts'
+import 'default-passive-events'
 
 const app = createApp(App)
 app.config.globalProperties.$echarts = echarts
