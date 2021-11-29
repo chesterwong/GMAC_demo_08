@@ -36,13 +36,13 @@ ul,li{
   border-radius: 20px;
 }
 .el-divider--horizontal {
-    margin: 12px 0;
+  margin: 12px 0;
 }
 @font-face {
   font-family: 'iconfont';
   src: url('./assets/font/iconfont.woff2?t=1637550548680') format('woff2'),
-       url('./assets/font/iconfont.woff?t=1637550548680') format('woff'),
-       url('./assets/font/iconfont.ttf?t=1637550548680') format('truetype');
+  url('./assets/font/iconfont.woff?t=1637550548680') format('woff'),
+  url('./assets/font/iconfont.ttf?t=1637550548680') format('truetype');
 }
 .iconfont {
   font-family: "iconfont" !important;
@@ -85,4 +85,5 @@ ul,li{
   transform: scale(0.8);
   display: inline-flex;
 }
+
 </style>

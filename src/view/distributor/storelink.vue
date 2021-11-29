@@ -631,7 +631,7 @@ export default defineComponent( {
 }
 .stl_sub_content{
     text-align: left;
-    padding: 0px 0 0 14px;
+    padding: 4px 0 0 14px;
     font-size: 0.4rem;
 }
 .stl_sub_content1{
